@@ -18,22 +18,22 @@ public class Initiate {
         String browser = ConfigReader.getBrowser();
         switch (browser.toLowerCase()) {
             case "chrome":
-              System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\IdeaProjects\\Saoudi_Assessment\\src\\main\\resources\\chromedriver.exe");
+              System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\IdeaProjects\\Sumerge_Assessment\\src\\main\\resources\\chromedriver.exe");
               driver = new ChromeDriver();
                 break;
             case "firefox":
-              System.setProperty("webdriver.gecko.driver", "C:\\Users\\user\\IdeaProjects\\Saoudi_Assessment\\src\\main\\resources\\geckodriver.exe");
+              System.setProperty("webdriver.gecko.driver", "C:\\Users\\user\\IdeaProjects\\Sumerge_Assessment\\src\\main\\resources\\geckodriver.exe");
               driver = new FirefoxDriver();
                 break;
             case "edge":
-              System.setProperty("webdriver.edge.driver", "C:\\Users\\user\\IdeaProjects\\Saoudi_Assessment\\src\\main\\resources\\msedgedriver.exe");
+              System.setProperty("webdriver.edge.driver", "C:\\Users\\user\\IdeaProjects\\Sumerge_Assessment\\src\\main\\resources\\msedgedriver.exe");
               driver = new EdgeDriver();
                 break;
             default:
                 throw new IllegalArgumentException("Invalid browser is selected in the congfig.properties file");
         }
         driver.manage().window().maximize();
-        String URL = "https://demo.nopcommerce.com/";
+        String URL = "https://www.saucedemo.com/";
         driver.get(URL);
     }
 

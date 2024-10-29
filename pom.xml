@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
-  <artifactId>Saoudi_Assessment</artifactId>
+  <artifactId>Sumerge_Assesment</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - Saoudi_Assessment</name>
+  <name>Archetype - Sumerge_Assessment</name>
   <url>http://maven.apache.org</url>
   <dependencies>
 
@@ -12,7 +12,7 @@
   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.10.0</version>
+    <version>4.12.0</version>
   </dependency>
 
   <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
@@ -73,7 +73,7 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <projectName>Saoudi_Assessment</projectName>
+              <projectName>Sumerge_Assessment</projectName>
               <outputDirectory>target</outputDirectory>
               <inputDirectory>${project.build.directory}</inputDirectory>
               <jsonFiles>

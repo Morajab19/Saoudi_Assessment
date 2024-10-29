@@ -9,7 +9,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Saoudi_Assessment" />
+        <module name="Sumerge_Assesment" />
       </profile>
     </annotationProcessing>
   </component>
